@@ -8,9 +8,11 @@ var wind = document.querySelector('#wind')
 
 apik = "90ff5deb8da2e140cb64133ad398956e"
 
- function convertion(val){
-     return (val - 273).toFixed(2)
- }
+  function convertion(val){
+    return (val-231).toFixed(2)
+     
+  }
+  
 
     btn.addEventListener('click', function(){
         fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputval.value+'&appid='+apik)
@@ -24,7 +26,7 @@ apik = "90ff5deb8da2e140cb64133ad398956e"
             var wndspd = data['wind']['speed']
 
             city.innerHTML=`City: ${nameval}`
-            temp.innerHTML = `Temperature: ${ convertion(tempature)} C`
+            temp.innerHTML = `Temperature: ${ convertion(tempature)} F`
             description.innerHTML = `Conditions: ${descrip}`
             wind.innerHTML = `Wind Speed: ${wndspd} km/h`
 
