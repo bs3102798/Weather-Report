@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This weeks weather report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1 class="title">Weather Dashboard</h1>
+    </nav>
+    <main>
+
+        <aside>
+            <h1>Search for a City:</h1>
+            <section class="inputs">
+                <input type="text" placeholder="search cities weather ..." id="cityinput">
+                <input type="submit" id="add" value="Submit">
+                <button placeholder="submit" id="add"></button>
+
+            </section>
+            <h3 class="citybox" id="atlanta">atlanta</h3>
+            <h3 class="citybox" id="denver">Denver</h3>
+            <h3 class="citybox" id="seattle">Seattle</h3>
+            <h3 class="citybox" id="san_francisco">San Francisco</h3>
+            <h3 class="citybox" id="orlando">Orlando</h3>
+            <h3 class="citybox"id="chicago">Chicago</h3>
+            <h3 class="citybox"id="austin">Austin</h3>
+            
+        </aside>
+    </main>
+        <fieldset class="diplay">
+            <div class="wrapper">
+                <h2 id="cityoutput"></h2>
+                <p id="description"></p>
+                <p id="temp"></p>
+                <p id="wind"></p>
+            </div>
+        </fieldset>
+    <div class="day"><h2>5-day Forecast:
+        <div>
+
+        </div>
+
+
+    </h2>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

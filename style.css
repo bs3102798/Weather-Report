@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+
+nav {
+    background-color: blue;
+    height: 100px;
+    font-size: x-large;
+    
+}
+
+.title{
+    
+    margin-top: -3px;
+    color: aliceblue;
+    text-align: center;
+
+    
+    
+}
+
+
+fieldset{
+    margin-left: 300px;
+    height: 250px;
+    margin-top: -380px;
+}
+
+textarea{
+    width: 275px;
+}
+
+.citybox{
+    background: rgb(155, 181, 190);
+    width: 280px;
+    text-align: center;
+}
+.citybox:hover{
+    background: lightslategray;
+}
+
+.button{
+    width: 280px;
+    border: none;
+    background:rgb(123, 208, 236);
+}
+
+.button:hover{
+    background: rgb(177, 217, 230);
+
+}
+
+.day{
+    margin-left: 300px;
+
+}
